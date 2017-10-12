@@ -1,7 +1,9 @@
 var request = require("request");
 
+vhsys_url = 'https://www.vhsys.com/Communication/WebService/'
+
 var options = { method: 'POST',
-  url: 'https://www.vhsys.com/Communication/WebService/',
+  url: vhsys_url,
   headers: 
    { 'postman-token': '19da0b34-988b-d50d-829e-32f64f89375c',
      'cache-control': 'no-cache',
