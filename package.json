@@ -1,0 +1,25 @@
+{
+  "name": "vhsys_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soucriador/vhsys_api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soucriador/vhsys_api/issues"
+  },
+  "homepage": "https://github.com/soucriador/vhsys_api#readme",
+  "dependencies": {
+    "curl": "^0.1.4"
+  }
+}

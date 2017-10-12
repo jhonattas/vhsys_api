@@ -3,19 +3,19 @@
 	 * NFe VHSYS
 	 *
 	 * Copyright 2013, (http://www.vhsys.com.br)
-	 * API DE COMUNICAÇÃO WEBSERVICE
-	 * Versão da API: v1.0
+	 * API DE COMUNICAï¿½ï¿½O WEBSERVICE
+	 * Versï¿½o da API: v1.0
 	 *
 	 * TOKEN (NUMERO GERADO PELO NFE VHSYS) 
 	 */
 	 
-	//FAZ A COMUNICAÇÃO COM O NFE VHSYS
+	//FAZ A COMUNICAï¿½ï¿½O COM O NFE VHSYS
 	include("VHSYSAPI.Class.php");
 	$vhsys = new CommunicationVHSYS();
 	$vhsys->Campos 	= array(
-							//CABEÇARIO
+							//CABEï¿½ARIO
 							"API" => "Produtos",
-							"TOKEN" => "SEU_TOKEN",
+							"TOKEN" => "AAGIjM2UDN0IbNUDbNXTDMyADc0BbN0Y7M",
 							"METODO" => "ALTERAR",
 							
 							//CAMPOS
@@ -23,14 +23,14 @@
 							"id_subcategoria" => "137",
 							"cod_produto" => "001",
 							"marca_produto" => "VHSYS",
-							"desc_produto" => "teste de integração",
+							"desc_produto" => "teste de integraï¿½ï¿½o",
 							"unidade_produto" => "Un",
 							"valor_produto" => 5.79,
 							"valor_custo_produto" => 1.98,
 							"peso_produto" => 5.00, //KG
 							"ncm_produto" => "00000000",
-							"obs_produto" => "teste de observação",
-							"tipo_produto" => "Produto", //PRODUTO OU SERVIÇO
+							"obs_produto" => "teste de observaï¿½ï¿½o",
+							"tipo_produto" => "Produto", //PRODUTO OU SERVIï¿½O
 							"status_produto" => "Ativo",
 							"id_produto" => "" //UTILIZADO APENAS PARA ALTERAR E EXCLUIR
 							);
@@ -65,6 +65,6 @@
 		}
 	else
 		{
-			echo "Houve uma falha na comunicação!";	
+			echo "Houve uma falha na comunicaï¿½ï¿½o!";	
 		}
 ?>
