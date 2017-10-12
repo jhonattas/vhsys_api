@@ -7,7 +7,8 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
   },
   "homepage": "https://github.com/soucriador/vhsys_api#readme",
   "dependencies": {
-    "curl": "^0.1.4"
+    "curljs": "^0.1.2",
+    "request": "^2.83.0"
   }
 }
